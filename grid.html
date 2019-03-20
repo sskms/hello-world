@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>grid design</title>
+    <style>
+      #grid{
+        border:5px solid pink;
+        /* 최신 그리드(grid) 기술을 이용한 박스 디자인 */
+        /* 우선 display 속성을 grid로 설정 */
+        display:grid;
+        /* 그리드 속성을 이용해서 div로 나뉘어진 두 열을 '앞 쪽'은 메뉴로 뒤는 내용으로 만든다. */
+        grid-template-columns: 150px 1fr;
+        padding:0;
+      }
+      div{
+        border:5px solid gray;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>  Navigation   </div>
+      <div>  Police on Monday sought an arrest warrant for Jung Joon-young, a singer and popular TV personality, on charges of secretly filming sex tapes of women and sharing them with his friends on a mobile chat.
+
+The police also requested the prosecution to apply for a writ against a nightclub staff, identified only by his last name Kim, over the same charge, according to the Seoul Metropolitan Police Agency handling the case.
+
+Jung, 30, is accused of recording the sex videos of about 10 women he slept with and uploading them on a KakaoTalk messenger chat room to share them with other entertainers, including Seungri, a member of K-pop boy band BIGBANG.
+
+Seungri has also been investigated over the sex tapes and a slew of other charges that include arranging escort services for prospective investors.
+
+Jung has been questioned twice by the police, on Thursday and Sunday.       </div>
+    </div>
+  </body>
+</html>

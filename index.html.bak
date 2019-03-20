@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head onload="alert('안녕. ㅎㅎㅎ');">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1138">
+  <script type="text/javascript">
+	function touchRock() {
+		var userName = prompt("What is your name?", "enter your name here.");
+		if (userName)
+		{
+			alert("It is good to meet you, " + userName + ".");
+			document.getElementById("tt1").src = "tt_5.jpg";
+
+		}
+  </script>
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px AppleMyungjo}
+  </style>
+</head>
+<body onload="alert('안녕. ㅎㅎㅎ');">
+<h1> 멋진 하루입니다! </h1>
+<p class="p1"> ds411.</p>
+<p class="p1"> 이제 너무 느려요.</p>
+<p class="p1"> ㅎㅎ</p>
+
+<div style="margin-top:100px; text-align:center">
+	<img id="tt1" src="tt_1.jpg" alt="titie1" style="cursor:pointer" onclick="touchRock()" />
+</div>
+</body>
+</html>
